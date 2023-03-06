@@ -1,0 +1,8 @@
+root {
+    --primary-color: 8BBD8B;
+    --secundary-color: 3C787E;
+}
+
+* {
+    background-color: var(--primary-color);
+}
