@@ -1,8 +1,37 @@
-root {
-    --primary-color: 8BBD8B;
-    --secundary-color: 3C787E;
+:root {
+    --primary-color: #8BBD8B;
+    --secundary-color: #3C787E;
+    --title-font: Merriweather Sans, sans-serif;
+    --secondary-font: Arial, sans-serif;
 }
 
 * {
     background-color: var(--primary-color);
+    font-family: var(--title-font);
+}
+
+.logo {
+    background-image: url(assets/logo.png);
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
 }
