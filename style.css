@@ -10,28 +10,20 @@
     font-family: var(--title-font);
 }
 
+header {
+    background-color: var(--secundary-color);
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    border-radius: 38px;
+    justify-content: space-between;
+}
+
 .logo {
     background-image: url(assets/logo.png);
-}
-
-
-ul {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    list-style-type: none;
-
-}
-
-li {
-    float: left;
-    margin-left: 10px;
-}
-
-li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 20px 10px;
-    text-decoration: none;
+    background-color: var(--secundary-color);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27%;
+    border-radius: 38px;
 }
