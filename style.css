@@ -16,7 +16,8 @@ header {
     flex-direction: row;
     height: 150px;
     border-radius: 38px;
-    justify-content: space-between;
+    justify-content: center;
+    margin-inline: 10%;
 }
 
 .logo {
@@ -24,6 +25,31 @@ header {
     background-color: var(--secundary-color);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 27%;
+    width: 15%;
+    margin-left: -5%;
+}
+
+ul {
+    background-color: var(--secundary-color);
+    width: max-content;
+    display: flex;
+    align-items: center;
     border-radius: 38px;
+    background-color: var(--secundary-color);
+    margin: 0px;
+}
+
+a {
+    color: black;
+    text-align: center;
+    padding: 56px 75px;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: var(--secundary-color);
+    margin: 0px;
+}
+
+/*a.active {
+    background-color: var(--primary-color);
+    padding: 75px;
 }
