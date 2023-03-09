@@ -7,13 +7,14 @@
   display: flex;
   justify-content: center;
   position: relative;
-  width: 44%;
+  width: 60%;
 }
 .backImage{
-    width: 100%;
+    width: 100%;  
     height: auto;
 }
 .topImage{
+  filter: brightness(125%);
   width:25%;
   position: absolute;
   left:1%;
@@ -25,7 +26,7 @@
     position: absolute;
     top: 80%;
     left: 15%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, sans-serif;
     background-color: #e6d705;
     color: black;
     font-size: .9rem;
