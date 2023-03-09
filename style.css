@@ -2,6 +2,7 @@
 :root {
     --primaryColor: #8BBD8B;
     --secondColor: black;
+    --secondBackground: /*#3C787E*/ black;
     --titleFont: Merriweather Sans, sans-serif;
     --textFont: Arial, sans-serif;
     --logo: url(assets/logo3.png);
