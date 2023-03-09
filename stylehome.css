@@ -1,0 +1,44 @@
+.content{
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 44%;
+}
+.backImage{
+    width: 100%;
+    height: auto;
+}
+.topImage{
+  width:25%;
+  position: absolute;
+  left:1%;
+  border-radius: 15px;
+  
+}
+
+  .container .joinUs {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e6d705;
+    color: black;
+    font-size: .9rem;
+    padding: .8rem 1.2rem;
+    border: solid .05rem #e6d70580;
+    cursor: pointer;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  
+  .container .joinUs:hover {
+    transform: scale(1.5);
+    background-color: rgb(29, 29, 29);
+    color:white;
+  }
