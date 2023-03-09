@@ -64,6 +64,7 @@ a.active {
     padding: auto;
 }
 footer{
+    background-color: var(--dark);
     color: var(--light);
 }
 footer ul{
