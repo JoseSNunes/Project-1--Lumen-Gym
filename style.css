@@ -15,11 +15,12 @@
     font-family: var(--textFont);
     margin:0;
     font-size: 1rem;
-    
 }
+
 body{
     background-color: var(--primaryColor);
 }
+
 header {
     background-color: var(--dark);
     display: flex;
@@ -58,17 +59,17 @@ a {
     margin: 0px;
 }
 
-
 a.active {
     background-color: rgb(27, 27, 27);
     padding: auto;
 }
+
 footer{
     background-color: var(--dark);
     color: var(--light);
 }
-footer ul{
 
+footer ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -76,6 +77,7 @@ footer ul{
     margin: 0;
     padding: 0;
 }
+
 #hours{
     display: flex;
     flex-direction: column;

@@ -1,31 +1,36 @@
+@import url(style.css);
+
+
 .content{
     margin: 1%;
     display: flex;
     justify-content: center;
 }
+
 #bodyHome{
   background-color: black;
 }
+
 .container {
   display: flex;
   justify-content: center;
   position: relative;
   width: 60%;
 }
+
 .backImage{
     width: 100%;  
-
     height: auto;
 }
+
 .topImage{
-  filter: brightness(125%);
   width:25%;
   position: absolute;
   top:10%;
   left:5%;
-  border-radius: 15px;
-  
+  border-radius: 15px; 
 }
+
 .special{
   width: 20%;
   position: absolute;
@@ -34,25 +39,25 @@
   rotate:-10deg;
 }
 
-  .container .joinUs {
-    position: absolute;
-    top: 65%;
-    left: 25%;
-    font-family: Impact, sans-serif;
-    background-color: #BEF903;
-    color: black;
-    font-size: 1.6rem;
-    padding: 1rem 1.8rem;
-    border: solid .05rem #c0f9036e;
-    cursor: pointer;
-    border-radius: 25px;
-    text-transform: uppercase;
-    rotate:-2deg;
-    transition: 0.3s;
-  }
-  
-  .container .joinUs:hover {
-    transform: scale(1.5);
-    background-color: rgb(29, 29, 29);
-    color:white;
-  }
+.container .joinUs {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  font-family: Impact, sans-serif;
+  background-color: #BEF903;
+  color: black;
+  font-size: 1.6rem;
+  padding: 1rem 1.8rem;
+  border: solid .05rem #c0f9036e;
+  cursor: pointer;
+  border-radius: 25px;
+  text-transform: uppercase;
+  rotate:-2deg;
+  transition: 0.3s;
+}
+
+.container .joinUs:hover {
+  transform: scale(1.5);
+  background-color: rgb(29, 29, 29);
+  color:white;
+}
