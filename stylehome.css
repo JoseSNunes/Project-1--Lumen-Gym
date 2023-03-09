@@ -11,30 +11,40 @@
 }
 .backImage{
     width: 100%;  
+
     height: auto;
 }
 .topImage{
   filter: brightness(125%);
   width:25%;
   position: absolute;
-  left:1%;
+  top:10%;
+  left:5%;
   border-radius: 15px;
   
+}
+.special{
+  width: 20%;
+  position: absolute;
+  top:65%;
+  left:5%;
+  rotate:-10deg;
 }
 
   .container .joinUs {
     position: absolute;
-    top: 80%;
-    left: 15%;
+    top: 65%;
+    left: 25%;
     font-family: Impact, sans-serif;
-    background-color: #e6d705;
+    background-color: #BEF903;
     color: black;
-    font-size: .9rem;
-    padding: .8rem 1.2rem;
+    font-size: 1.6rem;
+    padding: 1rem 1.8rem;
     border: solid .05rem #e6d70580;
     cursor: pointer;
     border-radius: 25px;
     text-transform: uppercase;
+    rotate:-2deg;
     transition: 0.3s;
   }
   
