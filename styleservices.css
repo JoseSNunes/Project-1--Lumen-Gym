@@ -16,27 +16,25 @@ article{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color: var(--secondColor);
+    background-color: var(--secondBackground);
     color:var(--light);
-    padding: 5rem 2.5rem;
+    padding: 7rem 2.5rem;
     border-radius: 1.5rem;
     gap:1.5vw;
     font-size: bold;
     text-align: center;
     width: 10rem;
 }
-article>h1.membership{
-    margin: 0%;
+article>.membership{
+    text-align: center;
+    margin-top: -10%;
     letter-spacing: .05em;
     text-transform: uppercase;
-    background-color: var(--secondColor);
-}
-article>h1{
-    background-color: var(--secondColor);
+    background-color: var(--secondBackground);
 }
 p{
-    background-color: var(--secondColor);
-    height:2rem;
+    background-color: var(--secondBackground);
+    height:12rem;
 
 }
 .select {
@@ -44,7 +42,7 @@ p{
     background-color: #e6d705;
     color: black;
     font-size: .9rem;
-    padding: .8rem 1rem;
+    padding: 1rem 1rem;
     border: solid .05rem #e6d70580;
     cursor: pointer;
     border-radius: 25px;
@@ -53,6 +51,6 @@ p{
   }
   .select:hover {
     transform: scale(1.2);
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(39, 39, 39);
     color:white;
   }
