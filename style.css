@@ -1,19 +1,21 @@
 :root {
-    --primary-color: #8BBD8B;
-    --secundary-color: #3C787E;
-    --title-font: Merriweather Sans, sans-serif;
-    --secondary-font: Arial, sans-serif;
+    --primaryColor: #8BBD8B;
+    --secondColor: #3C787E;
+    --titleFont: Merriweather Sans, sans-serif;
+    --secondaryFont: Arial, sans-serif;
     --logo: url(assets/logo2.png);
+    --lightText: white;
+    --darkText:black;
 }
 
 * {
-    background-color: var(--primary-color);
-    font-family: var(--title-font);
+    background-color: var(--primaryColor);
+    font-family: var(--titleFont);
     margin:0;
 }
 
 header {
-    background-color: var(--secundary-color);
+    background-color: var(--secondColor);
     display: flex;
     flex-direction: row;
     min-height: 75px;
@@ -23,7 +25,7 @@ header {
 
 .logo {
     background-image: var(--logo);
-    background-color: var(--secundary-color);
+    background-color: var(--secondColor);
     background-repeat: no-repeat;
     background-size: contain;
     width: 15%;
@@ -31,13 +33,13 @@ header {
 }
 
 ul {
-    background-color: var(--secundary-color);
+    background-color: var(--secondColor);
     
     display: flex;
     align-items: center;
     justify-content: flex-end;
     border-radius: 38px;
-    background-color: var(--secundary-color);
+    background-color: var(--secondColor);
     margin: 0px;
 }
 
@@ -47,7 +49,7 @@ a {
     padding: 23px 75px;
     text-decoration: none;
     font-size: 24px;
-    background-color: var(--secundary-color);
+    background-color: var(--secondColor);
     margin: 0px;
 }
 
