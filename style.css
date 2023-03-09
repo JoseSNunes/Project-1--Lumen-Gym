@@ -1,6 +1,7 @@
+/*3C787E*/
 :root {
     --primaryColor: #8BBD8B;
-    --secondColor: #3C787E;
+    --secondColor: black;
     --titleFont: Merriweather Sans, sans-serif;
     --secondaryFont: Arial, sans-serif;
     --logo: url(assets/logo2.png);
@@ -56,6 +57,6 @@ a {
 
 
 a.active {
-    filter: brightness(85%);
+    background-color: rgb(32, 32, 32);
     padding: auto;
 }
