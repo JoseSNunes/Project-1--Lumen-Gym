@@ -38,7 +38,7 @@ header {
     cursor:pointer;
 }
 
-ul {
+header ul {
     background-color: var(--dark);
     color: var(--light);
     display: flex;
@@ -63,3 +63,20 @@ a.active {
     background-color: rgb(27, 27, 27);
     padding: auto;
 }
+footer{
+    color: var(--light);
+}
+footer ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 38px;
+    margin: 0;
+    padding: 0;
+}
+#hours{
+    display: flex;
+    flex-direction: column;
+}
+
