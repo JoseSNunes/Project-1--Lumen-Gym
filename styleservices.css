@@ -1,8 +1,11 @@
 @import './style.css';
 
 h1{
-    margin: 5%;
+    margin: 1%;
+    font-size: 3rem;
     text-align: center;
+    text-transform: uppercase;
+    font-family: var(--titleFont);
 }
 .containers{
     margin: 5%;
@@ -10,7 +13,10 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+h2{
+    font-family: var(--titleFont);
+    font-size: 1.6rem;
+}
 article{
     display: flex;
     flex-direction: column;
@@ -39,11 +45,11 @@ p{
 }
 .select {
     font-family: var(--impactFont);
-    background-color: #e6d705;
+    background-color: #BEF903;
     color: black;
     font-size: .9rem;
     padding: 1rem 1rem;
-    border: solid .05rem #e6d70580;
+    border: solid .05rem #c0f9036e;
     cursor: pointer;
     border-radius: 25px;
     text-transform: uppercase;

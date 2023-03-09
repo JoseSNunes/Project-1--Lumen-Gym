@@ -3,7 +3,7 @@
     --primaryColor: #8BBD8B;
     --secondColor: black;
     --secondBackground: /*#3C787E*/ black;
-    --titleFont: Merriweather Sans, sans-serif;
+    --titleFont: Georgia, serif;
     --textFont: Arial, sans-serif;
     --logo: url(assets/logo3.png);
     --light: white;
@@ -14,6 +14,8 @@
 * {
     font-family: var(--textFont);
     margin:0;
+    font-size: 1rem;
+    
 }
 body{
     background-color: var(--primaryColor);
