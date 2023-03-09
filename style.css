@@ -3,6 +3,7 @@
     --secundary-color: #3C787E;
     --title-font: Merriweather Sans, sans-serif;
     --secondary-font: Arial, sans-serif;
+    --logo: url(assets/logo.png);
 }
 
 * {
@@ -21,7 +22,7 @@ header {
 }
 
 .logo {
-    background-image: url(assets/logo.png);
+    background-image: var(--logo);
     background-color: var(--secundary-color);
     background-repeat: no-repeat;
     background-size: contain;
@@ -41,7 +42,7 @@ ul {
 }
 
 a {
-    color: black;
+    color: white;
     text-align: center;
     padding: 23px 75px;
     text-decoration: none;
@@ -49,6 +50,7 @@ a {
     background-color: var(--secundary-color);
     margin: 0px;
 }
+
 
 a.active {
     filter: brightness(85%);
