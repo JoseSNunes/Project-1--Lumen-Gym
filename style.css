@@ -1,7 +1,7 @@
 /*3C787E*/
 :root {
     --primaryColor: #8BBD8B;
-    --secondColor: #3C787E;
+    --secondColor: black;
     --titleFont: Merriweather Sans, sans-serif;
     --textFont: Arial, sans-serif;
     --logo: url(assets/logo3.png);
@@ -18,7 +18,7 @@ body{
     background-color: var(--primaryColor);
 }
 header {
-    background-color: var(--secondColor);
+    background-color: var(--dark);
     display: flex;
     flex-direction: row;
     min-height: 4.2rem;
@@ -27,7 +27,7 @@ header {
 
 .logo {
     background-image: var(--logo);
-    background-color: var(--secondColor);
+    background-color: var(--dark);
     background-repeat: no-repeat;
     background-size: contain;
     width: 15%;
@@ -36,13 +36,12 @@ header {
 }
 
 ul {
-    background-color: var(--secondColor);
-    color: ;
+    background-color: var(--dark);
+    color: var(--light);
     display: flex;
     align-items: center;
     justify-content: flex-end;
     border-radius: 38px;
-    background-color: var(--secondColor);
     margin: 0px;
 }
 
@@ -52,12 +51,12 @@ a {
     padding: 20px 40px;
     text-decoration: none;
     font-size: 24px;
-    background-color: var(--secondColor);
+    background-color: var(--dark);
     margin: 0px;
 }
 
 
 a.active {
-    background-color: #020d0e56;
+    background-color: rgb(27, 27, 27);
     padding: auto;
 }
