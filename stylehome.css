@@ -3,17 +3,25 @@
     display: flex;
     justify-content: center;
 }
-img{
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 44%;
+}
+.backImage{
     width: 100%;
     height: auto;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 44%;
-  }
-  .container .btn {
+.topImage{
+  width:25%;
+  position: absolute;
+  left:1%;
+  border-radius: 15px;
+  
+}
+
+  .container .joinUs {
     position: absolute;
     top: 80%;
     left: 15%;
@@ -29,7 +37,8 @@ img{
     transition: 0.3s;
   }
   
-  .container .btn:hover {
+  .container .joinUs:hover {
+    transform: scale(1.5);
     background-color: rgb(29, 29, 29);
     color:white;
   }
