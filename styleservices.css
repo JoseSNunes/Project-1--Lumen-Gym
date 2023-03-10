@@ -2,7 +2,7 @@
 
 h1{
     margin: 1%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
     font-family: var(--titleFont);
@@ -24,12 +24,14 @@ article{
     align-content: center;
     background-color: var(--secondBackground);
     color:var(--light);
-    padding: 4.5rem 2.5rem;
+    padding: 5.5rem 2.5rem;
     border-radius: 1.5rem;
     gap:1.5vw;
     font-size: bold;
     text-align: center;
     width: 10rem;
+    
+    
 }
 article>.membership{
     text-align: center;
@@ -47,9 +49,9 @@ p{
     font-family: var(--impactFont);
     background-color: #BEF903;
     color: black;
-    font-size: .9rem;
-    padding: 1rem 1rem;
-    border: solid .05rem #c0f9036e;
+    font-size: 1.2rem;
+    padding: .5rem .5rem;
+    border: solid .2rem #c0f9036e;
     cursor: pointer;
     border-radius: 25px;
     text-transform: uppercase;
@@ -60,3 +62,12 @@ p{
     background-color: rgb(39, 39, 39);
     color:white;
   }
+  img.offer{
+    width: 8%;
+    position: absolute;
+    border-radius: 100%;
+    top:60%;
+    left:85%;
+    rotate:-8deg;
+  }
+  
