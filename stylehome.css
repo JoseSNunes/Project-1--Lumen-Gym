@@ -61,8 +61,3 @@
   background-color: rgb(29, 29, 29);
   color:white;
 }
-@media screen and (max-width: 450px) {
-  #bodyHome{
-      position:fixed;
-  }
-}
