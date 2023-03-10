@@ -44,9 +44,7 @@ input[type=text],input[type=email], textarea {
     border-radius: 25px;
     padding: 10px;
   }
-  .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.about{
+  margin:3%;
+  margin-inline: 33%;
+}
