@@ -1,0 +1,50 @@
+@import url(style.css);
+
+h1{
+    margin: 1%;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--titleFont);
+}
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: .8rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: .35rem;
+    margin-bottom: 1rem;
+    resize: none;
+  }
+  input[type=submit] {
+    font-family: var(--impactFont);
+    background-color: #BEF903;
+    color: var(--dark);
+    font-size: 1.2rem;
+    padding: .7rem 1.2rem;
+    border: solid .3rem #c0f9036e;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  textarea{
+    height:12,5rem;
+  }
+
+  input[type=submit]:hover{
+    transform: scale(1.1);
+    background-color: rgb(39, 39, 39);
+    color:white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+  }
+.about{
+  margin:3%;
+  margin-inline: 33%;
+}
